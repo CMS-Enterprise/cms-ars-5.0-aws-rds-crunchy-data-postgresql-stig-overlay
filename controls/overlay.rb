@@ -1,6 +1,6 @@
 overlay_controls = input('overlay_controls')
 
-include_controls 'aws-rds-crunchy-data-postgresql-stig-baseline' do
+include_controls 'crunchy-data-postgresql-stig-baseline' do
 
   ## NA due to the requirement not included in CMS ARS 5.0
   unless overlay_controls.empty?
